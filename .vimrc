@@ -117,6 +117,9 @@ cnoremap <C-K>      <C-U>
 " open sidebar with cmd+k
 map <F3> <Esc>:NERDTreeToggle<CR>
 
+"fix legacy parser warning for snipmate
+let g:snipMate = { 'snippet_version' : 1 }
+
 " encoding settings
 set encoding=utf-8
 set termencoding=utf-8
